@@ -12,7 +12,7 @@ import {
 
 export default function Share() {
   //   const { user } = useContext(AuthContext);
-  //   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   //   const desc = useRef();
   //   const [file, setFile] = useState(null);
 
@@ -45,7 +45,7 @@ export default function Share() {
         <div className="shareTop">
           <img
             className="shareProfileImg"
-            src="assets/person/7.jpeg"
+            src={PF + "person/7.jpeg"}
             // src={
             //   user.profilePicture
             //     ? PF + user.profilePicture

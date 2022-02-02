@@ -45,6 +45,7 @@ export default function Share() {
         <div className="shareTop">
           <img
             className="shareProfileImg"
+            src="assets/person/7.jpeg"
             // src={
             //   user.profilePicture
             //     ? PF + user.profilePicture
